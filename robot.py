@@ -1,13 +1,6 @@
 #!/usr/bin/env python3
 """
-    This sample program shows how to control a motor using a joystick. In the
-    operator control part of the program, the joystick is read and the value
-    is written to the motor.
-    Joystick analog values range from -1 to 1 and speed controller inputs also
-    range from -1 to 1 making it easy to work together. The program also delays
-    a short time in the loop to allow other threads to run. This is generally
-    a good idea, especially since the joystick values are only transmitted
-    from the Driver Station once every 20ms.
+    This code makes the robot's front 2 motors oscilate during autonomous, and enables tele-op control for those 2 motots as well
 """
 
 import wpilib
